@@ -196,16 +196,36 @@ footer {
 
 	.top-text h2{
 		display:flex;
-		padding-top:15px;
+		padding-top:35px;
+		padding-bottom:15px;
 	}
 	
 	.middle-img{
 		display:flex;
 		width:500px;
-
+		padding-top:20px;
 	}
 
-	
+/* bottom content	 */
+	.bottom-text{
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+		width:500px;
+	}
+
+	.bottom-text h2{
+		display:flex;
+		padding-top:35px;
+		padding-bottom:15px;
+	}
+
+	footer{
+		display:flex;
+		justify-content:center;
+		width:500px;
+	}
+
 @media screen and (max-width: 800px){
 
 }
