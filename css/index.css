@@ -178,14 +178,34 @@ footer {
 		border-bottom: 1px solid black;
 	}
 
+/* title and button */
 	header .circle {
 		
 			display:none;
 		
 	}
+/* features and about */
+	.top-text{
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+		padding-top:20px;
+		width:500px;
+		border-top:1px solid black;
+	}
+
+	.top-text h2{
+		display:flex;
+		padding-top:15px;
+	}
+	
+	.middle-img{
+		display:flex;
+		width:500px;
+
+	}
 
 	
-
 @media screen and (max-width: 800px){
 
 }
