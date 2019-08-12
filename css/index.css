@@ -170,6 +170,9 @@ footer {
 /* media queries go here */
 /* TABLET */
 @media screen and (max-width: 800px){
+	html {
+		margin: 0.5vh;
+	}
 	nav {
 		margin: auto;
 		width: 800px;
@@ -256,19 +259,37 @@ footer {
 	}
 	nav {
 		margin: auto;
-		width: 500px;
+		width: 100%;
 		display:flex;
-		flex-wrap:wrap;
+		flex-direction:column-reverse;
 	}
 	nav .navLinks {
-		margin:auto;
-		width:100%;
+		width:500px;
+		/* padding:20px; */
 		display:flex;
 		flex-direction:column;
-		justify-content:center;
+		justify-content:space-around;
+		align-items:center;
 	}
+
+	nav a {
+		border-bottom: 1px solid black;
+		width:500px;
+		/* padding:20px; */
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+		margin-right:35%;
+		
+	}
+
 /* title and button */
-	header .title{
+	/* header .title{
+		width:500px;
+		display:flex;
+		align-items:center; */
+	}
+	header div {
 		width:500px;
 		display:flex;
 		align-items:center;
