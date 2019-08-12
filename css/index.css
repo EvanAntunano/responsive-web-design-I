@@ -65,6 +65,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+/* nav styling goes here */
 nav {
 	margin: auto;
 	width: 876px;
@@ -87,6 +90,7 @@ nav .logo {
     line-height: 1em;
 }
 
+/* hedaer styling goes here */
 header {
 	line-height: 0.75;
 	margin: 50px 0px 50px 100px;
@@ -164,9 +168,19 @@ footer {
 }
 
 
+/* media queries go here */
+@media screen and (max-width: 500px){
+
+}
+
+
+
+@media screen and (max-width: 800px){
+
+}
 
 /* SERVICES CSS */
-.services-top-content h1{
+/* .services-top-content h1{
 	padding-top:30px;
 	font-size: 25px;
 }
@@ -217,5 +231,5 @@ footer {
 .services-list ul{
 	list-style: square;
 	list-style-position:inside;
-}
+} */
 
