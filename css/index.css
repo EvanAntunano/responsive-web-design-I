@@ -67,19 +67,18 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 
-/* nav styling goes here */
 nav {
 	margin: auto;
 	width: 876px;
 	padding-top: 25px;
-	display:flex;
+	
 }
 
 nav a {
 	text-decoration: none;
 	color: grey;
 	padding: 25px;
-	display:flex;
+	
 }
 
 nav .logo {
@@ -169,6 +168,87 @@ footer {
 
 
 /* media queries go here */
+/* TABLET */
+@media screen and (max-width: 800px){
+	nav {
+		margin: auto;
+		width: 800px;
+		display:flex;
+		flex-wrap:wrap;
+	}
+	nav a {
+		margin:auto;
+		width:100%;
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+	}
+
+
+/* title and button */
+	header .title{
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+		margin-right:30%;
+	}
+	header .circle {
+		
+			display:none;
+		
+	}
+/* features and about */
+	.top-text{
+		display:flex;
+		flex-direction:row;
+		align-items:center;
+		padding-top:20px;
+		width:800px;
+		border-top:1px solid black;
+	}
+
+	.top-text h2{
+		display:flex;
+		padding-top:35px;
+		padding-bottom:15px;
+	}
+	
+	.middle-img{
+		display:flex;
+		width:800px;
+		padding-top:20px;
+	}
+
+/* bottom content	 */
+	.bottom-text{
+		display:flex;
+		flex-direction:row;
+		align-items:center;
+		width:800px;
+	}
+
+	.bottom-text h2{
+		display:flex;
+		padding-top:35px;
+		padding-bottom:15px;
+	}
+
+	.bottom-text .services h2{
+		margin-top: -35px;
+	}
+
+	footer{
+		display:flex;
+		justify-content:center;
+		width:800px;
+	}
+}
+
+
+
+
+
+/* MOBILE */
 @media screen and (max-width: 500px){
 	nav a {
 		width:500px;
@@ -179,6 +259,11 @@ footer {
 	}
 
 /* title and button */
+	header .title{
+		width:500px;
+		display:flex;
+		align-items:center;
+	}
 	header .circle {
 		
 			display:none;
@@ -229,10 +314,8 @@ footer {
 		justify-content:center;
 		width:500px;
 	}
-
-@media screen and (max-width: 800px){
-
 }
+
 
 /* SERVICES CSS */
 /* .services-top-content h1{
