@@ -71,7 +71,8 @@ nav {
 	margin: auto;
 	width: 876px;
 	padding-top: 25px;
-	
+	display:flex;
+	flex-direction:row;
 }
 
 nav a {
@@ -82,11 +83,7 @@ nav a {
 }
 
 nav .logo {
-	padding-left: 650px;
-	margin-top: -25px;
-	width: auto;
-	display: inline-block;
-    line-height: 1em;
+
 }
 
 /* hedaer styling goes here */
@@ -177,7 +174,7 @@ footer {
 		margin: auto;
 		width: 800px;
 		display:flex;
-		flex-wrap:wrap;
+		flex-direction:column-reverse;
 	}
 	nav .navLinks {
 		margin:auto;
@@ -186,6 +183,11 @@ footer {
 		/* flex-direction:row; */
 		justify-content:flex-start;
 		padding-left:5%;
+	}
+	.logo{
+		width:25%;
+		margin-top:25px;
+		margin-left:35%;
 	}
 
 
@@ -279,15 +281,20 @@ footer {
 		display:flex;
 		flex-direction:column;
 		align-items:center;
-		margin-right:35%;
-		
+		margin-right:100%;
+	}
+	img{
+		width:25%;
+		display:flex;
+		margin-left:15%;
 	}
 
 /* title and button */
-	/* header .title{
+	header .title{
 		width:500px;
 		display:flex;
-		align-items:center; */
+		align-items:center;
+		margin-left:-13%;
 	}
 	header div {
 		width:500px;
