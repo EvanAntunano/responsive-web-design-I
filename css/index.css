@@ -283,7 +283,7 @@ footer {
 		align-items:center;
 		margin-right:100%;
 	}
-	img{
+	.logo{
 		width:25%;
 		display:flex;
 		margin-left:15%;
